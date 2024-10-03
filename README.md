@@ -4,7 +4,7 @@ Clone the repository into your local machine
 
 Install dotenv in your project through the terminal--> npm install dotenv
 
-Create an ||.env|| file inside the same directory as the index.js file
+Create an .env file inside the same directory as the index.js file
 
 Add your bot token inside that file --> DISCORD_TOKEN = "YOUR_DISCORD_BOT_TOKEN"
 
