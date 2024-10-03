@@ -1,6 +1,7 @@
-//    "ocrSpaceApiKey": "K84184401288957",
+
 
 const Discord = require("discord.js-selfbot-v13")
+require('dotenv').config();
 const client = new Discord.Client({
     checkUpdate: false
 });
@@ -317,4 +318,4 @@ client.on('messageCreate', async message => {
 
 });
 // At the end of the code, add the following line
-client.login("MTI1MjYyMzYyMzcwMTY1OTY5OA.G2haQb.55osAxq4pMSfHkIw3YUMUXtsUWeYYw9PEElT0s");
+client.login(process.env.DISCORD_TOKEN);
